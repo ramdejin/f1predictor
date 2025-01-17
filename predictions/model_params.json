@@ -1,0 +1,113 @@
+{
+    "classes": [
+        "Carlos Sainz Jr.",
+        "Charles Leclerc",
+        "George Russell",
+        "Lando Norris",
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Oscar Piastri"
+    ],
+    "intercepts": [
+        -0.7137032463732002,
+        -0.5624405619135262,
+        1.6939486225988531,
+        -1.010243971728873,
+        1.693948622598853,
+        -0.09126549345325434,
+        -1.010243971728873
+    ],
+    "coefficients": [
+        [
+            -0.350688701388172,
+            1.7904166871887428
+        ],
+        [
+            -0.3919913677858248,
+            2.067006187518508
+        ],
+        [
+            -1.3898126702534064,
+            -2.570661688773762
+        ],
+        [
+            -0.283601688954562,
+            1.3428105868705627
+        ],
+        [
+            -1.3898126702534062,
+            -2.570661688773762
+        ],
+        [
+            4.089508787589934,
+            -1.4017206709008672
+        ],
+        [
+            -0.283601688954562,
+            1.3428105868705627
+        ]
+    ],
+    "winner_classes": {
+        "0": "Carlos Sainz Jr.",
+        "1": "Charles Leclerc",
+        "2": "George Russell",
+        "3": "Lando Norris",
+        "4": "Lewis Hamilton",
+        "5": "Max Verstappen",
+        "6": "Oscar Piastri"
+    },
+    "feature_order": [
+        "race_name_Austrian Grand Prix",
+        "race_name_Belgian Grand Prix",
+        "race_name_British Grand Prix",
+        "race_name_Canadian Grand Prix",
+        "race_name_Chinese Grand Prix",
+        "race_name_Emilia Romagna Grand Prix",
+        "race_name_Hungarian Grand Prix",
+        "race_name_Italian Grand Prix",
+        "race_name_Japanese Grand Prix",
+        "race_name_Las Vegas Grand Prix",
+        "race_name_Mexican Grand Prix",
+        "race_name_Miami Grand Prix",
+        "race_name_Monaco Grand Prix",
+        "race_name_Qatar Grand Prix",
+        "race_name_S\u00e3o Paulo Grand Prix",
+        "race_name_United States Grand Prix",
+        "circuit_Aut\u00f3dromo Hermanos Rodr\u00edguez",
+        "circuit_Circuit Gilles Villeneuve",
+        "circuit_Circuit de Monaco",
+        "circuit_Circuit de Spa\u2013Francorchamps",
+        "circuit_Circuit of the Americas",
+        "circuit_Hungaroring",
+        "circuit_Imola Circuit",
+        "circuit_Interlagos",
+        "circuit_Las Vegas Street Circuit",
+        "circuit_Lusail International Circuit",
+        "circuit_Miami International Autodrome",
+        "circuit_Monza",
+        "circuit_Red Bull Ring",
+        "circuit_Shanghai International Circuit",
+        "circuit_Silverstone Circuit",
+        "circuit_Suzuka Circuit",
+        "winner_car_name_RB20",
+        "winner_car_name_SF-24",
+        "winner_car_name_W15",
+        "weather_encoded",
+        "winner_constructor_points",
+        "winner_constructor_wins",
+        "winner_constructor_podiums",
+        "winner_car_wins",
+        "winner_car_podiums",
+        "cluster_1",
+        "cluster_2"
+    ],
+    "weather_encoding": {
+        "f": 0,
+        "t": 1
+    },
+    "best_params": {
+        "logreg__C": 10,
+        "logreg__solver": "newton-cg",
+        "scaler": "StandardScaler()"
+    }
+}

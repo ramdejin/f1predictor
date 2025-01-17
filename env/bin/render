@@ -1,0 +1,10 @@
+#!/Users/rammenon/Desktop/f1predictor/env/bin/python3
+# PBR Generated from 'console_scripts'
+
+import sys
+
+from render import run
+
+
+if __name__ == "__main__":
+    sys.exit(run())

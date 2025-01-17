@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Race Winner Predictor</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="{% static 'predictor.css' %}">
+    <script src="{% static 'predictor.js' %}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>F1 Race Winner Predictor</h1>
+        <form id="predictForm" method="POST">
+            {% csrf_token %}
+            <div class="input-container">
+                <label for="race-select">Select Race:</label>
+                <select id="race-select" name="race_name">
+                    <option value="Bahrain Grand Prix">Bahrain Grand Prix</option>
+                    <option value="Saudi Arabian Grand Prix">Saudi Arabian Grand Prix</option>
+                    <option value="Australian Grand Prix">Australian Grand Prix</option>
+                    <option value="Chinese Grand Prix">Chinese Grand Prix</option>
+                    <option value="Miami Grand Prix">Miami Grand Prix</option>
+                    <option value="Emilia Romagna Grand Prix">Emilia Romagna Grand Prix</option>
+                    <option value="Monaco Grand Prix">Monaco Grand Prix</option>
+                    <option value="Canadian Grand Prix">Canadian Grand Prix</option>
+                    <option value="Spanish Grand Prix">Spanish Grand Prix</option>
+                    <option value="Austrian Grand Prix">Austrian Grand Prix</option>
+                    <option value="British Grand Prix">British Grand Prix</option>
+                    <option value="Hungarian Grand Prix">Hungarian Grand Prix</option>
+                    <option value="Belgian Grand Prix">Belgian Grand Prix</option>
+                    <option value="Dutch Grand Prix">Dutch Grand Prix</option>
+                    <option value="Italian Grand Prix">Italian Grand Prix</option>
+                    <option value="Singapore Grand Prix">Singapore Grand Prix</option>
+                    <option value="Japanese Grand Prix">Japanese Grand Prix</option>
+                    <option value="United States Grand Prix">United States Grand Prix</option>
+                    <option value="Mexican Grand Prix">Mexican Grand Prix</option>
+                    <option value="São Paulo Grand Prix">São Paulo Grand Prix</option>
+                    <option value="Las Vegas Grand Prix">Las Vegas Grand Prix</option>
+                    <option value="Qatar Grand Prix">Qatar Grand Prix</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="weather-select">Select Weather:</label>
+                <select id="weather-select" name="weather">
+                    <option value="0">Dry</option>
+                    <option value="1">Rainy</option>
+                </select>
+            </div>
+            <button id="predict-button" type="submit">Predict</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <button onclick="window.location.href='/home';">Go to Home</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
