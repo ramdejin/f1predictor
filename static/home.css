@@ -1,0 +1,86 @@
+
+html{
+
+    height: 100%;
+
+}
+
+body {
+    background-color: aqua;
+    background-image: url("https://motorsportmagazine.b-cdn.net/wp-content/uploads/2023/02/Alfa-romeo-2023-F1-car-front-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* fix on vertical monitor if you feel like it later*/
+}
+
+#phrase {
+
+    float: left;
+    width: 85%;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#date {
+    width: 10%;
+    float: right;
+    margin: 0;
+    padding-top: 5px;
+}
+
+#top {
+    background-color: rgba(190, 50, 21, .9);
+    border: solid;
+    border-width: 2px;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#main {
+    display: flex;
+    
+    border-width: 2px;
+    margin-top: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+#left {
+    width: 25%;
+    
+}
+
+#right {
+    width: 25%;
+    
+}
+
+#middle {
+    width: 50%;
+    
+    border-width: 1.5px;
+}
+
+button{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 3%;
+    width: 20%;
+    
+}
+
+

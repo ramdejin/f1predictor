@@ -4,11 +4,17 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from .work import predict_winner
 
-def predictor_view(request):
+def home(request):
+    return render(request, 'predictions/home.html')
+
+def predictor(request):
     """
     Serves the predictor HTML page.
     """
     return render(request, "predictions/predictor.html")
+
+def visualizer(request):
+    return render(request, 'predictions/visualizer.html')
 
 @csrf_exempt
 def predict(request):

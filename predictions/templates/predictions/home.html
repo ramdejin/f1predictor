@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}" />
+    <title>F1 Statistics Tracker</title>
+</head>
+
+<body>
+    <div id="top">
+        <h3 id="phrase">"Get the latest in F1 statistics now!"</h3>
+        <h3 id="date">"06 December, 2024"</h3>
+    </div>
+
+    <div id="main">
+        <div id="left">
+            <article>
+                <!-- Content goes here -->
+            </article>
+        </div>
+
+        <div id="middle">
+            <h1>F1 Stat Tracking</h1>
+            <button id="predictor" type="button" onclick="window.location.href='{% url 'predictor' %}'">Predictor</button>
+            <button id="visualizer" type="button" onclick="window.location.href='{% url 'visualizer' %}'">Visualizer</button>
+            <button id="filter" type="button" onclick="window.location.href='filter.html'">Filtered Search</button>
+        </div>
+
+        <div id="right">
+            <article>
+                <!-- Content goes here -->
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

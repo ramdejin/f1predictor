@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+    <script src="{% static 'visualizer.js' %}" type="module" defer></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'visualizer.css' %}" />
+    <title>Visualizer</title>
+</head>
+
+<body>
+    <div id="top">
+        <h1 id="phrase">Racer performance in the 2024 season</h1>
+        <h1>
+            <button onclick="window.location.href='{% url 'home' %}';">Go to Home</button>
+        </h1>
+    </div>
+    
+    <canvas id="myChart"></canvas>
+</body>
+
+</html>
