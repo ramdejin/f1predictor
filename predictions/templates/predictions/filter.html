@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racer Filter</title>
+    <link rel="stylesheet" href="{% static 'filter.css' %}">
+    <script src="{% static 'filter.js' %}" defer></script>
+</head>
+
+<body>
+    <div id="top">
+        <h1>Search Racer Stats</h1>
+        <button onclick="window.location.href='{% url 'home' %}';">Go Back Home</button>
+    </div>
+    <div id="filter-container">
+        <input type="text" id="search-input" placeholder="Enter Racer Name">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="results-container"></div>
+    </div>
+</body>
+
+</html>

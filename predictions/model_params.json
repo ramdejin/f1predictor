@@ -1,78 +1,105 @@
 {
     "classes": [
+        "Carlos Sainz",
         "Carlos Sainz Jr.",
         "Charles Leclerc",
         "George Russell",
         "Lando Norris",
         "Lewis Hamilton",
         "Max Verstappen",
-        "Oscar Piastri"
+        "Oscar Piastri",
+        "Sergio Perez"
     ],
     "intercepts": [
-        -0.5509710434376502,
-        -0.12979848816266076,
-        -0.12979848816264697,
-        -0.8267105603488426,
-        2.463989140460632,
-        -0.8267105603488425
+        -1.4187173022163995,
+        -0.4534987953627342,
+        0.753351520922441,
+        -0.44702359593580127,
+        -0.4534987953627341,
+        -0.7995035843559702,
+        2.81172148586045,
+        0.007169066450738107
     ],
     "coefficients": [
         [
-            2.88498671189026,
-            -0.16787479346024572
+            0.6354417248105704,
+            -0.0994658090764523
         ],
         [
-            -0.4054198757435685,
-            -0.227326581318539
+            -0.3559424837997945,
+            -0.22673395418393655
         ],
         [
-            -0.40541987574356847,
-            -0.2273265813185389
+            -0.27913251048466964,
+            0.02867402454453666
         ],
         [
-            -0.23162812633711907,
-            -0.126066398417079
+            0.30935549834862797,
+            1.1251368184204278
         ],
         [
-            -1.6108907077288857,
-            0.8746607529314816
+            -0.35594248379979426,
+            -0.22673395418393652
         ],
         [
-            -0.23162812633711913,
-            -0.12606639841707903
+            -0.2709018345202408,
+            1.281837554081158
+        ],
+        [
+            -0.2559455615774836,
+            -1.5577103640013723
+        ],
+        [
+            0.5730676510227831,
+            -0.3250043156004246
         ]
     ],
     "winner_classes": {
-        "0": "Carlos Sainz Jr.",
-        "1": "Charles Leclerc",
-        "2": "George Russell",
-        "3": "Lando Norris",
-        "4": "Lewis Hamilton",
-        "5": "Max Verstappen",
-        "6": "Oscar Piastri"
+        "0": "Carlos Sainz",
+        "1": "Carlos Sainz Jr.",
+        "2": "Charles Leclerc",
+        "3": "George Russell",
+        "4": "Lando Norris",
+        "5": "Lewis Hamilton",
+        "6": "Max Verstappen",
+        "7": "Oscar Piastri",
+        "8": "Sergio Perez"
     },
     "feature_order": [
+        "race_name_Australian Grand Prix",
         "race_name_Austrian Grand Prix",
+        "race_name_Azerbaijan Grand Prix",
         "race_name_Bahrain Grand Prix",
+        "race_name_Belgian Grand Prix",
+        "race_name_Brazilian Grand Prix",
         "race_name_British Grand Prix",
         "race_name_Canadian Grand Prix",
+        "race_name_Chinese Grand Prix",
         "race_name_Dutch Grand Prix",
         "race_name_Emilia Romagna Grand Prix",
+        "race_name_French Grand Prix",
         "race_name_Hungarian Grand Prix",
+        "race_name_Italian Grand Prix",
         "race_name_Japanese Grand Prix",
         "race_name_Las Vegas Grand Prix",
+        "race_name_Mexican Grand Prix",
         "race_name_Miami Grand Prix",
         "race_name_Monaco Grand Prix",
         "race_name_Qatar Grand Prix",
         "race_name_Saudi Arabian Grand Prix",
+        "race_name_Singapore Grand Prix",
         "race_name_Spanish Grand Prix",
         "race_name_S\u00e3o Paulo Grand Prix",
         "race_name_United States Grand Prix",
+        "circuit_Aut\u00f3dromo Hermanos Rodr\u00edguez",
         "circuit_Bahrain International Circuit",
+        "circuit_Baku City Circuit",
         "circuit_Circuit Gilles Villeneuve",
+        "circuit_Circuit Paul Ricard",
         "circuit_Circuit Zandvoort",
         "circuit_Circuit de Barcelona\u2013Catalunya",
         "circuit_Circuit de Monaco",
+        "circuit_Circuit de Spa\u2013Francorchamps",
         "circuit_Circuit of the Americas",
         "circuit_Hungaroring",
         "circuit_Imola Circuit",
@@ -80,13 +107,19 @@
         "circuit_Jeddah Corniche Circuit",
         "circuit_Las Vegas Street Circuit",
         "circuit_Lusail International Circuit",
+        "circuit_Marina Bay Street Circuit",
         "circuit_Miami International Autodrome",
+        "circuit_Monza",
         "circuit_Red Bull Ring",
+        "circuit_Shanghai International Circuit",
         "circuit_Silverstone Circuit",
         "circuit_Suzuka Circuit",
+        "circuit_Yas Marina Circuit",
         "winner_car_name_RB20",
         "winner_car_name_SF-24",
+        "winner_car_name_Unknown",
         "winner_car_name_W15",
+        "winner_car_name_nan",
         "weather_encoded",
         "winner_constructor_points",
         "winner_constructor_wins",
@@ -101,8 +134,8 @@
         "t": 1
     },
     "best_params": {
-        "logreg__C": 10,
+        "logreg__C": 1,
         "logreg__solver": "lbfgs",
-        "scaler": "StandardScaler()"
+        "scaler": "MinMaxScaler()"
     }
 }

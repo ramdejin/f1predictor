@@ -26,7 +26,8 @@
             <h1>F1 Stat Tracking</h1>
             <button id="predictor" type="button" onclick="window.location.href='{% url 'predictor' %}'">Predictor</button>
             <button id="visualizer" type="button" onclick="window.location.href='{% url 'visualizer' %}'">Visualizer</button>
-            <button id="filter" type="button" onclick="window.location.href='filter.html'">Filtered Search</button>
+            <button onclick="window.location.href='{% url 'filter' %}';">Go to Filter</button>
+
         </div>
 
         <div id="right">
