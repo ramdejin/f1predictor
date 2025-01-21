@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const ctx = canvas.getContext('2d');
 
-    fetch('points.csv')
+    fetch('/static/points.csv')
         .then(response => response.text())
         .then(csvData => parseAndProcessCSV(csvData))
         .then(({ labels, datasets }) => createChart(ctx, labels, datasets))

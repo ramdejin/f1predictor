@@ -9,42 +9,37 @@
         "Oscar Piastri"
     ],
     "intercepts": [
-        -0.7137032463732002,
-        -0.5624405619135262,
-        1.6939486225988531,
-        -1.010243971728873,
-        1.693948622598853,
-        -0.09126549345325434,
-        -1.010243971728873
+        -0.5509710434376502,
+        -0.12979848816266076,
+        -0.12979848816264697,
+        -0.8267105603488426,
+        2.463989140460632,
+        -0.8267105603488425
     ],
     "coefficients": [
         [
-            -0.350688701388172,
-            1.7904166871887428
+            2.88498671189026,
+            -0.16787479346024572
         ],
         [
-            -0.3919913677858248,
-            2.067006187518508
+            -0.4054198757435685,
+            -0.227326581318539
         ],
         [
-            -1.3898126702534064,
-            -2.570661688773762
+            -0.40541987574356847,
+            -0.2273265813185389
         ],
         [
-            -0.283601688954562,
-            1.3428105868705627
+            -0.23162812633711907,
+            -0.126066398417079
         ],
         [
-            -1.3898126702534062,
-            -2.570661688773762
+            -1.6108907077288857,
+            0.8746607529314816
         ],
         [
-            4.089508787589934,
-            -1.4017206709008672
-        ],
-        [
-            -0.283601688954562,
-            1.3428105868705627
+            -0.23162812633711913,
+            -0.12606639841707903
         ]
     ],
     "winner_classes": {
@@ -58,35 +53,35 @@
     },
     "feature_order": [
         "race_name_Austrian Grand Prix",
-        "race_name_Belgian Grand Prix",
+        "race_name_Bahrain Grand Prix",
         "race_name_British Grand Prix",
         "race_name_Canadian Grand Prix",
-        "race_name_Chinese Grand Prix",
+        "race_name_Dutch Grand Prix",
         "race_name_Emilia Romagna Grand Prix",
         "race_name_Hungarian Grand Prix",
-        "race_name_Italian Grand Prix",
         "race_name_Japanese Grand Prix",
         "race_name_Las Vegas Grand Prix",
-        "race_name_Mexican Grand Prix",
         "race_name_Miami Grand Prix",
         "race_name_Monaco Grand Prix",
         "race_name_Qatar Grand Prix",
+        "race_name_Saudi Arabian Grand Prix",
+        "race_name_Spanish Grand Prix",
         "race_name_S\u00e3o Paulo Grand Prix",
         "race_name_United States Grand Prix",
-        "circuit_Aut\u00f3dromo Hermanos Rodr\u00edguez",
+        "circuit_Bahrain International Circuit",
         "circuit_Circuit Gilles Villeneuve",
+        "circuit_Circuit Zandvoort",
+        "circuit_Circuit de Barcelona\u2013Catalunya",
         "circuit_Circuit de Monaco",
-        "circuit_Circuit de Spa\u2013Francorchamps",
         "circuit_Circuit of the Americas",
         "circuit_Hungaroring",
         "circuit_Imola Circuit",
         "circuit_Interlagos",
+        "circuit_Jeddah Corniche Circuit",
         "circuit_Las Vegas Street Circuit",
         "circuit_Lusail International Circuit",
         "circuit_Miami International Autodrome",
-        "circuit_Monza",
         "circuit_Red Bull Ring",
-        "circuit_Shanghai International Circuit",
         "circuit_Silverstone Circuit",
         "circuit_Suzuka Circuit",
         "winner_car_name_RB20",
@@ -107,7 +102,7 @@
     },
     "best_params": {
         "logreg__C": 10,
-        "logreg__solver": "newton-cg",
+        "logreg__solver": "lbfgs",
         "scaler": "StandardScaler()"
     }
 }
