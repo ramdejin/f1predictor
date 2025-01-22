@@ -7,7 +7,6 @@ urlpatterns = [
     path('visualizer/', views.visualizer, name='visualizer'),
     path('predict/', views.predict, name='predict'),  # Visualizer page
     path('filter/', views.filter_view, name='filter'),
-    path('filter/search/', views.filter_search, name='filter_search'),
 ]
 
 
